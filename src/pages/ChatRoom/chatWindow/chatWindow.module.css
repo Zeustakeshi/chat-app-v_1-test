@@ -1,0 +1,73 @@
+.chat-window {
+    flex: 1;
+    padding: 10px;
+    padding-top: 0;
+}
+
+/* chat content */
+
+.chat-content {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+    margin-right: 8px;
+}
+
+.header-name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.mess-list {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 0;
+    list-style: none;
+    height: 75vh;
+    margin: 0;
+    padding: 10px;
+}
+
+.mess-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.mess-item.isUser {
+    justify-content: flex-end;
+}
+
+.mess-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 1000px;
+    margin-right: 8px;
+}
+
+.messages {
+    /* border: 1px solid #eee; */
+    padding: 8px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+
+.messages.isUser {
+    background-color: #e5efff;
+}
